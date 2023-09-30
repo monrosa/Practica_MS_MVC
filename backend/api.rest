@@ -1,0 +1,15 @@
+####
+GET http://localhost:3000/api/empleados
+
+###
+POST http://localhost:3000/api/empleados
+content-type: application/json
+
+{
+    "nombre":"Pedro Andrade",
+    "cargo":"gerente",
+    "departamento":"TI",
+    "sueldo":"50"
+}
+
+###
